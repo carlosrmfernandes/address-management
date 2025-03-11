@@ -16,7 +16,7 @@ Este é um sistema de gestão de endereço. O objetivo principal é permitir que
 ### Cadastro de Usuário
 - **Requisição**
     ```bash
-    curl -X POST http://<API_URL>/register \
+    curl -X POST https://go-wash-api.onrender.com/api/user \
         -H "Content-Type: application/json" \
         -d '{
             "name": "Leanna",
@@ -33,7 +33,7 @@ Este é um sistema de gestão de endereço. O objetivo principal é permitir que
 ### Login
 - **Requisição**
     ```bash
-    curl -X POST http://<API_URL>/login \
+    curl -X https://go-wash-api.onrender.com/api/login \
         -H "Content-Type: application/json" \
         -d '{
             "email": "carlosr.m.fernandes@gmail.com",
